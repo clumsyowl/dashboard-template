@@ -1,25 +1,31 @@
 import { DocIcon } from "./icons/DocIcon";
-import { HomeIcon } from "./icons/HomeIcon";
-import { BillsIcon } from "./icons/BillsIcon";
-import { AnalyticIcon } from "./icons/AnalyticIcon";
 import { MonitoringIcon } from "./icons/MonitoringIcon";
 import { DemographicIcon } from "./icons/DemographicIcon";
-import { ApplicationIcon } from "./icons/ApplicationIcon";
+import DashboardIcon from "./icons/DashboardIcon";
+import ScheduleIcon from "./icons/ScheduleIcon";
+import AnalyticsIcon from "./icons/AnalyticsIcon";
+import CalendarIcon from "./icons/CalendarIcon";
+import SettingsIcon from "./icons/SettingsIcon";
 
 export const data = [
   {
-    title: "Home",
-    icon: <HomeIcon />,
+    title: "Dashboard",
+    icon: <DashboardIcon />,
     link: "/",
   },
   {
-    title: "Bills",
-    icon: <BillsIcon />,
+    title: "Analytics",
+    icon: <AnalyticsIcon />,
+    link: "/admin/analytics",
+  },
+  {
+    title: "Schedule",
+    icon: <ScheduleIcon />,
     link: "/admin/bills",
   },
   {
-    title: "Applications",
-    icon: <ApplicationIcon />,
+    title: "Calendar",
+    icon: <CalendarIcon />,
     link: "/admin/applications",
   },
   {
@@ -33,13 +39,13 @@ export const data = [
     link: "/admin/demographics",
   },
   {
-    title: "Analytics",
-    icon: <AnalyticIcon />,
-    link: "/admin/analytics",
-  },
-  {
     title: "Documentation",
     icon: <DocIcon />,
     link: "/admin/documentation",
+  },
+  {
+    title: "Settings",
+    icon: <SettingsIcon />,
+    link: "/admin/test",
   },
 ];

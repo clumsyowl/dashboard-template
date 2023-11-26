@@ -28,7 +28,7 @@ function Sidebar(props) {
       } ${sidebarOpen ? style.open : style.close}  `}
     >
       <div className={style.container}>
-        <SidebarHeader />
+        {/* <SidebarHeader /> */}
         <SidebarItems />
       </div>
     </aside>
