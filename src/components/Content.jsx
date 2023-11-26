@@ -222,6 +222,7 @@ function Content() {
           </div>
         </div>
       </div>
+      
       <div className="mb-6 w-full md:mb-0 md:w-4/12 md:px-2">
         <div className="rounded-2xl bg-white p-4 shadow-lg">
           <p className="mb-4 text-xl font-medium text-gray-800">Entreprise</p>
@@ -338,6 +339,7 @@ function Content() {
           </button>
         </div>
       </div>
+      
       <div className="mb-6 w-full md:mb-0 md:w-4/12 md:px-2">
         <div className="rounded-2xl bg-indigo-500 p-4 shadow-lg">
           <div className="flex items-center  justify-between text-white">

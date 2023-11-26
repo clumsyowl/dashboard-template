@@ -46,6 +46,6 @@ export const data = [
   {
     title: "Settings",
     icon: <SettingsIcon />,
-    link: "/admin/test",
+    link: "/admin/settings",
   },
 ];
