@@ -1,4 +1,5 @@
 import React from "react";
+import css from "../style.module.css";
 import SidebarHeader from "./SidebarHeader";
 import SidebarItems from "./SidebarItems";
 import { useDashboardContext } from "../Provider";
@@ -25,10 +26,10 @@ function Sidebar(props) {
     <aside
       className={`${style.default} ${
         style.mobileOrientation[props.mobileOrientation]
-      } ${sidebarOpen ? style.open : style.close}  `}
+      } ${sidebarOpen ? style.open : style.close} ${css.scrollbar}`}
     >
       <div className={style.container}>
-        {/* <SidebarHeader /> */}
+        <SidebarHeader />
         <SidebarItems />
       </div>
     </aside>
