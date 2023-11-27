@@ -3,6 +3,7 @@ import Overlay from "./Overlay";
 import Sidebar from "./sidebar/Sidebar";
 import DashboardProvider from "./Provider";
 import TopBar from "./TopBar";
+import Footer from "./Footer";
 
 const style = {
   container: "bg-gray-100 h-screen overflow-hidden relative",
@@ -20,6 +21,7 @@ function DashboardLayout(props) {
           <div className={style.mainContainer}>
             <TopBar />
             <main className={style.main}>{props.children}</main>
+            <Footer />
           </div>
         </div>
       </div>
