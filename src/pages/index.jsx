@@ -1,27 +1,21 @@
 import React from "react";
 import Content from "../components/Content.jsx";
+import PieChart from "../components/charts/PieChartStats.jsx";
 
 // This contains the Dashboard page content.
 function HomePage() {
   return (
     <div className="flex flex-col flex-wrap sm:flex-row">
       {/* Stat Block 1 */}
-      <div className="mb-6 w-full md:mb-0 md:w-2/12 md:px-2">
+      <div className="mb-6 md:mb-6 xl:mb-0 w-full md:w-1/3 xl:w-2/12 md:px-2">
         <div className="rounded-2xl bg-white p-4 shadow-lg">
-          <p className="mb-4 text-xl font-medium text-gray-800">Entreprise</p>
-          <p className="text-3xl font-bold text-gray-900">
-            $0
-            <span className="text-sm text-gray-300">/ month</span>
-          </p>
-          <p className="mt-4 text-xs  text-gray-600">
-            For most businesses that want to optimize web queries.
-          </p>
+          <p className="mb-4 text-lg font-medium text-gray-800">Casual Leave</p>
+          <PieChart />
         </div>
       </div>
-
 
       {/* Stat Block 2 */}
-      <div className="mb-6 w-full md:mb-0 md:w-2/12 md:px-2">
+      <div className="mb-6 md:mb-6 xl:mb-0 w-full md:w-1/3 xl:w-2/12 md:px-2">
         <div className="rounded-2xl bg-white p-4 shadow-lg">
           <p className="mb-4 text-xl font-medium text-gray-800">Entreprise</p>
           <p className="text-3xl font-bold text-gray-900">
@@ -34,9 +28,8 @@ function HomePage() {
         </div>
       </div>
 
-
       {/* Stat Block 3 */}
-      <div className="mb-6 w-full md:mb-0 md:w-2/12 md:px-2">
+      <div className="mb-6 md:mb-6 xl:mb-0 w-full md:w-1/3 xl:w-2/12 md:px-2">
         <div className="rounded-2xl bg-white p-4 shadow-lg">
           <p className="mb-4 text-xl font-medium text-gray-800">Entreprise</p>
           <p className="text-3xl font-bold text-gray-900">
@@ -49,9 +42,8 @@ function HomePage() {
         </div>
       </div>
 
-
       {/* Stat Block 4 */}
-      <div className="mb-6 w-full md:mb-0 md:w-2/12 md:px-2">
+      <div className="mb-6 md:mb-6 xl:mb-0 w-full md:w-1/3 xl:w-2/12 md:px-2">
         <div className="rounded-2xl bg-white p-4 shadow-lg">
           <p className="mb-4 text-xl font-medium text-gray-800">Entreprise</p>
           <p className="text-3xl font-bold text-gray-900">
@@ -63,10 +55,9 @@ function HomePage() {
           </p>
         </div>
       </div>
-
 
       {/* Stat Block 5 */}
-      <div className="mb-6 w-full md:mb-0 md:w-2/12 md:px-2">
+      <div className="mb-6 md:mb-6 xl:mb-0 w-full md:w-1/3 xl:w-2/12 md:px-2">
         <div className="rounded-2xl bg-white p-4 shadow-lg">
           <p className="mb-4 text-xl font-medium text-gray-800">Entreprise</p>
           <p className="text-3xl font-bold text-gray-900">
@@ -79,9 +70,8 @@ function HomePage() {
         </div>
       </div>
 
-      
       {/* Stat Block 6 */}
-      <div className="mb-6 w-full md:mb-0 md:w-2/12 md:px-2">
+      <div className="mb-6 md:mb-6 xl:mb-0 w-full md:w-1/3 xl:w-2/12 md:px-2">
         <div className="rounded-2xl bg-white p-4 shadow-lg">
           <p className="mb-4 text-xl font-medium text-gray-800">Entreprise</p>
           <p className="text-3xl font-bold text-gray-900">
@@ -93,12 +83,6 @@ function HomePage() {
           </p>
         </div>
       </div>
-
-
-
-
-
-
 
       {/* Block 4 */}
       <div className="relative mx-auto mt-12 max-w-screen-xl">
