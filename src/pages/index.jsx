@@ -8,7 +8,7 @@ function HomePage() {
     <div className="flex flex-col flex-wrap sm:flex-row">
       {/* Stat Block 1 */}
       <div className="mb-6 md:mb-6 xl:mb-0 w-full md:w-1/3 xl:w-2/12 md:px-2">
-        <div className="rounded-2xl bg-white p-4 shadow-lg">
+        <div className="rounded-lg bg-white p-4 shadow-lg">
           <p className="mb-4 text-lg font-medium text-gray-800">Casual Leave</p>
           <PieChart />
         </div>
@@ -16,35 +16,23 @@ function HomePage() {
 
       {/* Stat Block 2 */}
       <div className="mb-6 md:mb-6 xl:mb-0 w-full md:w-1/3 xl:w-2/12 md:px-2">
-        <div className="rounded-2xl bg-white p-4 shadow-lg">
-          <p className="mb-4 text-xl font-medium text-gray-800">Entreprise</p>
-          <p className="text-3xl font-bold text-gray-900">
-            $0
-            <span className="text-sm text-gray-300">/ month</span>
-          </p>
-          <p className="mt-4 text-xs  text-gray-600">
-            For most businesses that want to optimize web queries.
-          </p>
+        <div className="rounded-lg bg-white p-4 shadow-lg">
+          <p className="mb-4 text-lg font-medium text-gray-800">Casual Leave</p>
+          <PieChart />
         </div>
       </div>
 
       {/* Stat Block 3 */}
       <div className="mb-6 md:mb-6 xl:mb-0 w-full md:w-1/3 xl:w-2/12 md:px-2">
-        <div className="rounded-2xl bg-white p-4 shadow-lg">
-          <p className="mb-4 text-xl font-medium text-gray-800">Entreprise</p>
-          <p className="text-3xl font-bold text-gray-900">
-            $0
-            <span className="text-sm text-gray-300">/ month</span>
-          </p>
-          <p className="mt-4 text-xs text-gray-600">
-            For most businesses that want to optimize web queries.
-          </p>
+        <div className="rounded-lg bg-white p-4 shadow-lg">
+          <p className="mb-4 text-lg font-medium text-gray-800">Casual Leave</p>
+          <PieChart />
         </div>
       </div>
 
       {/* Stat Block 4 */}
       <div className="mb-6 md:mb-6 xl:mb-0 w-full md:w-1/3 xl:w-2/12 md:px-2">
-        <div className="rounded-2xl bg-white p-4 shadow-lg">
+        <div className="rounded-lg bg-white p-4 shadow-lg">
           <p className="mb-4 text-xl font-medium text-gray-800">Entreprise</p>
           <p className="text-3xl font-bold text-gray-900">
             $0
@@ -58,7 +46,7 @@ function HomePage() {
 
       {/* Stat Block 5 */}
       <div className="mb-6 md:mb-6 xl:mb-0 w-full md:w-1/3 xl:w-2/12 md:px-2">
-        <div className="rounded-2xl bg-white p-4 shadow-lg">
+        <div className="rounded-lg bg-white p-4 shadow-lg">
           <p className="mb-4 text-xl font-medium text-gray-800">Entreprise</p>
           <p className="text-3xl font-bold text-gray-900">
             $0
@@ -72,7 +60,7 @@ function HomePage() {
 
       {/* Stat Block 6 */}
       <div className="mb-6 md:mb-6 xl:mb-0 w-full md:w-1/3 xl:w-2/12 md:px-2">
-        <div className="rounded-2xl bg-white p-4 shadow-lg">
+        <div className="rounded-lg bg-white p-4 shadow-lg">
           <p className="mb-4 text-xl font-medium text-gray-800">Entreprise</p>
           <p className="text-3xl font-bold text-gray-900">
             $0
@@ -85,9 +73,9 @@ function HomePage() {
       </div>
 
       {/* Block 4 */}
-      <div className="relative mx-auto mt-12 max-w-screen-xl">
-        <div className="mx-auto max-w-lg overflow-hidden rounded-lg shadow lg:flex lg:max-w-none">
-          <div className="bg-white px-6 py-8 lg:p-12">
+      <div className="relative mx-auto mt-6 md:px-2 w-full">
+        <div className="mx-auto overflow-hidden rounded-lg shadow  lg:flex lg:max-w-none">
+          <div className="bg-white px-6 py-8 lg:p-12 ">
             <h3 className="text-2xl font-extrabold leading-8 text-gray-900 sm:text-3xl sm:leading-9">
               Zero Commission by usage
             </h3>

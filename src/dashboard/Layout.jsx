@@ -21,7 +21,7 @@ function DashboardLayout(props) {
           <div className={style.mainContainer}>
             <TopBar />
             <main className={style.main}>{props.children}</main>
-            <Footer />
+            {/* <Footer /> */}
           </div>
         </div>
       </div>
