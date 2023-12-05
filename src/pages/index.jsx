@@ -1,6 +1,7 @@
 import React from "react";
 import Content from "../components/Content.jsx";
 import PieChart from "../components/charts/PieChartStats.jsx";
+import LatestAnnouncements from "../components/LatestAnnouncements.jsx";
 
 // This contains the Dashboard page content.
 function HomePage() {
@@ -9,7 +10,7 @@ function HomePage() {
       {/* Stat Block 1 */}
       <div className="mb-6 md:mb-6 xl:mb-0 w-full md:w-1/3 xl:w-2/12 md:px-2">
         <div className="rounded-lg bg-white p-4 shadow-lg">
-          <p className="mb-4 text-lg font-medium text-gray-800">Casual Leave</p>
+          <p className="mb-4 text-lg font-bold text-gray-800">Casual Leave</p>
           <PieChart />
         </div>
       </div>
@@ -17,7 +18,7 @@ function HomePage() {
       {/* Stat Block 2 */}
       <div className="mb-6 md:mb-6 xl:mb-0 w-full md:w-1/3 xl:w-2/12 md:px-2">
         <div className="rounded-lg bg-white p-4 shadow-lg">
-          <p className="mb-4 text-lg font-medium text-gray-800">Casual Leave</p>
+          <p className="mb-4 text-lg font-bold text-gray-800">Casual Leave</p>
           <PieChart />
         </div>
       </div>
@@ -25,7 +26,7 @@ function HomePage() {
       {/* Stat Block 3 */}
       <div className="mb-6 md:mb-6 xl:mb-0 w-full md:w-1/3 xl:w-2/12 md:px-2">
         <div className="rounded-lg bg-white p-4 shadow-lg">
-          <p className="mb-4 text-lg font-medium text-gray-800">Casual Leave</p>
+          <p className="mb-4 text-lg font-bold text-gray-800">Casual Leave</p>
           <PieChart />
         </div>
       </div>
@@ -33,49 +34,68 @@ function HomePage() {
       {/* Stat Block 4 */}
       <div className="mb-6 md:mb-6 xl:mb-0 w-full md:w-1/3 xl:w-2/12 md:px-2">
         <div className="rounded-lg bg-white p-4 shadow-lg">
-          <p className="mb-4 text-xl font-medium text-gray-800">Entreprise</p>
-          <p className="text-3xl font-bold text-gray-900">
-            $0
-            <span className="text-sm text-gray-300">/ month</span>
-          </p>
-          <p className="mt-4 text-xs  text-gray-600">
-            For most businesses that want to optimize web queries.
-          </p>
+          <p className="mb-4 text-lg font-bold text-gray-800">Casual Leave</p>
+          <PieChart />
         </div>
       </div>
 
       {/* Stat Block 5 */}
       <div className="mb-6 md:mb-6 xl:mb-0 w-full md:w-1/3 xl:w-2/12 md:px-2">
         <div className="rounded-lg bg-white p-4 shadow-lg">
-          <p className="mb-4 text-xl font-medium text-gray-800">Entreprise</p>
-          <p className="text-3xl font-bold text-gray-900">
-            $0
-            <span className="text-sm text-gray-300">/ month</span>
-          </p>
-          <p className="mt-4 text-xs  text-gray-600">
-            For most businesses that want to optimize web queries.
-          </p>
+          <p className="mb-4 text-lg font-bold text-gray-800">Casual Leave</p>
+          <PieChart />
         </div>
       </div>
 
       {/* Stat Block 6 */}
       <div className="mb-6 md:mb-6 xl:mb-0 w-full md:w-1/3 xl:w-2/12 md:px-2">
         <div className="rounded-lg bg-white p-4 shadow-lg">
-          <p className="mb-4 text-xl font-medium text-gray-800">Entreprise</p>
-          <p className="text-3xl font-bold text-gray-900">
-            $0
-            <span className="text-sm text-gray-300">/ month</span>
-          </p>
-          <p className="mt-4 text-xs  text-gray-600">
-            For most businesses that want to optimize web queries.
-          </p>
+          <p className="mb-4 text-lg font-bold text-gray-800">Casual Leave</p>
+          <PieChart />
+        </div>
+      </div>
+
+      {/* Latest Announcements */}
+      <div className="relative mx-auto mt-6 md:px-2 w-full">
+        <div className="mx-auto overflow-hidden rounded-lg shadow lg:flex lg:max-w-none">
+          <div className="bg-white px-6 py-8 lg:p-12">
+            <h3 className="text-2xl font-extrabold leading-8 text-gray-900 sm:text-2xl sm:leading-9">
+              Announcements
+            </h3>
+            <LatestAnnouncements />
+          </div>
+
+          <div className="bg-white px-6 py-8 text-center lg:flex lg:shrink-0 lg:flex-col lg:justify-center lg:p-12">
+            <p className="text-lg font-bold leading-6 text-gray-900">Free</p>
+            <div className="mt-4 flex items-center justify-center text-5xl font-extrabold leading-none text-gray-900">
+              <span>$0/mo</span>
+            </div>
+            <p className="mt-4 text-sm leading-5">
+              <span className="block font-medium text-gray-500">
+                Card payments:
+              </span>
+              <span className=" inline-block font-medium text-gray-500">
+                2.9% + 20p per transaction
+              </span>
+            </p>
+            <div className="mt-6">
+              <div className="rounded-md shadow">
+                <button
+                  type="button"
+                  className="w-full rounded-lg  bg-indigo-600 px-4 py-2 text-center text-base font-semibold text-white shadow-md transition duration-200 ease-in hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2  focus:ring-offset-indigo-200 "
+                >
+                  Create your store
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
       {/* Block 4 */}
       <div className="relative mx-auto mt-6 md:px-2 w-full">
-        <div className="mx-auto overflow-hidden rounded-lg shadow  lg:flex lg:max-w-none">
-          <div className="bg-white px-6 py-8 lg:p-12 ">
+        <div className="mx-auto overflow-hidden rounded-lg shadow lg:flex lg:max-w-none">
+          <div className="bg-white px-6 py-8 lg:p-12">
             <h3 className="text-2xl font-extrabold leading-8 text-gray-900 sm:text-3xl sm:leading-9">
               Zero Commission by usage
             </h3>
@@ -85,6 +105,7 @@ function HomePage() {
               don&#x27;t charge commission or monthly fees, keep all your
               margin.
             </p>
+
             <div className="mt-8">
               <div className="flex items-center">
                 <h4 className="shrink-0 bg-white pr-4 text-sm font-semibold uppercase leading-5 tracking-wider text-indigo-600">
@@ -221,6 +242,7 @@ function HomePage() {
                 </li>
               </ul>
             </div>
+
             <div className="mt-8">
               <div className="flex items-center">
                 <h4 className="shrink-0 bg-white pr-4 text-sm font-semibold uppercase leading-5 tracking-wider text-indigo-600">
@@ -266,6 +288,7 @@ function HomePage() {
               </ul>
             </div>
           </div>
+
           <div className="bg-white px-6 py-8 text-center lg:flex lg:shrink-0 lg:flex-col lg:justify-center lg:p-12">
             <p className="text-lg font-bold leading-6 text-gray-900">Free</p>
             <div className="mt-4 flex items-center justify-center text-5xl font-extrabold leading-none text-gray-900">
